@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".logic.AppApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.TixianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ShezhiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_shezhi"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".ui.RechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.YueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Commentdetail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CpriceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BaojiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FinishDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FinishDtail2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Finish2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PublishDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PublishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Notpaydetail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NopayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Notsenddetail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NotsendoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FinishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Allrefund_detial"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AllrefundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Haverefund"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Notgetgood_detail"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AllcommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Findpassword2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Findpassword0"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NotGetGoodsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FindpasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.RenameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SellgoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.UsersInfor"
+            android:exported="false" />
+        <activity
+            android:name=".ui.GoodDteil"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.IdentifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

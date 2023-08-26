@@ -1,0 +1,4 @@
+
+ikotlin:S117"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(ÜüÇ
+Ckotlin:S1481",Remove this unused "good_id" local variable.(ÜüÇ
+bkotlin:S1192"JDefine a constant instead of duplicating this literal "2023.4.23" 3 times.(–ÓÄ
